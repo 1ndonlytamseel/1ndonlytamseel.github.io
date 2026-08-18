@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tamseel Ahmed — Software Engineering undergraduate passionate about coding, data-driven development, software engineering and data science.">
+  <meta name="author" content="Tamseel Ahmed">
+  <meta property="og:title" content="Tamseel Ahmed | Software Engineer">
+  <meta property="og:description" content="Software Engineering undergraduate passionate about coding, data-driven development and AI & Data Science.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tamseel Ahmed | Software Engineer">
+  <meta name="twitter:description" content="Software Engineering undergraduate passionate about coding, data-driven development and data science.">
+  <title>Tamseel Ahmed | Software Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%3C%3C%2F%3E%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="grid-bg"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="logo" href="#home">&lt;Tamseel/&gt;</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> Hello, I'm</p>
+        <h1>Tamseel <span>Ahmed</span></h1>
+        <div class="hero-role">
+          <span>Software Engineer</span>
+        </div>
+        <p class="subrole">Software Engineering Student <b>|</b> AI &amp; Data Science Enthusiast</p>
+        <p class="typing-line"><span id="typed"></span><span class="cursor">|</span></p>
+        <p class="hero-description">A dedicated Software Engineering undergraduate with a strong passion for coding and data-driven development. I enjoy exploring and analyzing data and applying it to build practical and efficient software solutions.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn btn-secondary" href="Resume.pdf" download>Download Resume <span>↓</span></a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/tamseel-ahmed-a42872281/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:tamseelwork@gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <div class="photo-placeholder" id="photoBox">
+            <img src="assets/images/tamseel.jpg" alt="Tamseel Ahmed" onerror="this.style.display='none';document.getElementById('photoBox').classList.add('missing-photo')">
+            <div class="photo-fallback">
+              <span class="fallback-mark">&lt;/&gt;</span>
+              <strong>Tamseel Ahmed</strong>
+              <small>Place <code>tamseel.jpg</code><br>inside <code>assets/images/</code></small>
+            </div>
+          </div>
+          <div class="corner corner-1"></div><div class="corner corner-2"></div>
+        </div>
+        <div class="photo-note">SOFTWARE ENGINEERING <span>•</span> DATA <span>•</span> AI</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal"><span>01</span><h2>About Me</h2></div>
+      <div class="about-grid">
+        <div class="about-lead reveal"><span class="quote">“</span><p>Building practical solutions through code, data and continuous learning.</p></div>
+        <div class="about-copy reveal">
+          <p>I am a dedicated undergraduate student pursuing a Bachelor of Science in Software Engineering (BSSE), with a strong passion for coding and data-driven development.</p>
+          <p>I have a keen interest in exploring and analyzing data and applying it to build practical and efficient software solutions through academic and personal projects.</p>
+          <p>I am continuously striving to enhance my technical and problem-solving skills and am committed to applying my knowledge to real-world challenges and growing into a proficient and innovative software engineer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal"><span>02</span><h2>My Skills</h2></div>
+      <p class="section-intro reveal">A growing toolkit built through coursework, projects and hands-on programming practice.</p>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming &amp; problem solving</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">C</span><h3>C</h3><p>Programming fundamentals</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">C++</span><h3>C++</h3><p>Programming &amp; logic</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">Ja</span><h3>Java</h3><p>Object-oriented programming</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Web programming</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">SQL</span><h3>SQL</h3><p>Database fundamentals</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">Rs</span><h3>Rust</h3><p>Systems-oriented learning</p></div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal"><span>03</span><h2>My Projects</h2></div>
+      <p class="section-intro reveal">Academic and personal projects focused on programming fundamentals, data and practical software solutions.</p>
+      <div class="projects-grid">
+        <article class="project-card featured reveal"><div class="project-top"><span>01</span><span class="tag">PYTHON</span></div><h3>Restaurant Management System</h3><p>Developed a Restaurant Management System using Python, implementing core functionalities such as order handling and data management.</p><div class="tags"><span>Python</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>02</span><span class="tag">PYTHON</span></div><h3>Tic-Tac-Toe</h3><p>Python-based game developed to strengthen programming fundamentals and logical thinking.</p><div class="tags"><span>Python</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>03</span><span class="tag">PYTHON</span></div><h3>Guess the Number</h3><p>Python-based game demonstrating programming fundamentals, user interaction and logical problem solving.</p><div class="tags"><span>Python</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>04</span><span class="tag">PYTHON</span></div><h3>Ping Pong</h3><p>Python-based game developed as part of programming practice, focusing on logic and interactive gameplay.</p><div class="tags"><span>Python</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>05</span><span class="tag">ACADEMIC</span></div><h3>Database Management System</h3><p>An academic project created to practice database design and SQL.</p><div class="tags"><span>SQL</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>06</span><span class="tag">DATA</span></div><h3>Data Analysis Tool</h3><p>An academic project focused on exploring data analysis concepts and practical problem solving.</p><div class="tags"><span>Python</span><span>Data</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>07</span><span class="tag">ACADEMIC</span></div><h3>Basic ATM Simulation</h3><p>A programming project created to practice user interaction and core programming logic.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>08</span><span class="tag">ACADEMIC</span></div><h3>Simple Calculator</h3><p>A small programming project for practicing arithmetic operations and user interaction.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>09</span><span class="tag">ACADEMIC</span></div><h3>Student Grade Management System</h3><p>An academic project focused on managing student grades and practicing structured programming.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>10</span><span class="tag">ACADEMIC</span></div><h3>Simple To-Do List Application</h3><p>A small application created to practice task-oriented data handling and programming fundamentals.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>11</span><span class="tag">ACADEMIC</span></div><h3>Leap Year Checker</h3><p>A programming exercise focused on conditional logic and user input.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>12</span><span class="tag">ACADEMIC</span></div><h3>Personal Finance Tracker</h3><p>An academic/personal project focused on organizing and tracking financial information.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>13</span><span class="tag">ACADEMIC</span></div><h3>Library Management System</h3><p>An academic project created to practice organizing library-related records and programming logic.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>14</span><span class="tag">ACADEMIC</span></div><h3>School Management System</h3><p>An academic project focused on organizing school-related information through programming concepts.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>15</span><span class="tag">ACADEMIC</span></div><h3>Car Rental Management System</h3><p>An academic project created to practice managing car-rental-related information and programming logic.</p><div class="tags"><span>Programming</span></div><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="education">
+      <div>
+        <div class="section-heading reveal"><span>04</span><h2>Education</h2></div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="date">2023 — PRESENT</span><h3>BS in Software Engineering</h3><p>IQRA UNIVERSITY</p></div>
+          <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="date">2021 — 2023</span><h3>Intermediate in Computer Science</h3><p>ST. PATRICK'S COLLEGE</p></div>
+          <div class="timeline-item reveal"><span class="timeline-dot"></span><span class="date">2009 — 2021</span><h3>Matriculation in Computer Science</h3><p>THE EDUCATORS SCHOOL</p></div>
+        </div>
+      </div>
+      <div id="certifications">
+        <div class="section-heading reveal"><span>05</span><h2>Certifications</h2></div>
+        <article class="certificate reveal"><span class="cert-mark">IBM</span><div><span class="date">CERTIFICATION</span><h3>Data Science Professional Certificate</h3><p>Coursera</p><small>Completed coursework covering data analysis, Python, data visualization, and machine learning fundamentals.</small></div></article>
+      </div>
+    </section>
+
+    <section class="section languages-services">
+      <div class="mini-panel reveal"><span class="panel-label">LANGUAGES</span><div class="language"><strong>Urdu</strong><span>Native</span></div><div class="language"><strong>English</strong><span>Fluent</span></div></div>
+      <div class="mini-panel reveal"><span class="panel-label">WHAT I DO</span><div class="service-grid"><span>Software Development</span><span>Python Development</span><span>Data Analysis</span><span>Database Development</span><span>Problem Solving</span><span>AI &amp; Data Science Learning</span></div></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-intro reveal"><div class="section-heading"><span>06</span><h2>Let's Work Together</h2></div><p>Interested in collaborating, discussing a project, or simply connecting? Feel free to reach out.</p><div class="contact-details"><a href="mailto:tamseelwork@gmail.com"><small>Email</small><strong>tamseelwork@gmail.com</strong></a><a href="tel:03327939896"><small>Phone</small><strong>0332 7939896</strong></a><a href="https://www.linkedin.com/in/tamseel-ahmed-a42872281/" target="_blank" rel="noopener"><small>LinkedIn</small><strong>Connect on LinkedIn ↗</strong></a><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener"><small>GitHub</small><strong>1ndonlytamseel ↗</strong></a></div></div>
+      <form class="contact-form reveal" id="contactForm" novalidate><label>Name<input id="name" name="name" type="text" autocomplete="name" required></label><label>Email<input id="email" name="email" type="email" autocomplete="email" required></label><label>Message<textarea id="message" name="message" rows="6" required></textarea></label><button class="btn btn-primary" type="submit">Send Message <span>↗</span></button><p class="form-note" id="formNote" aria-live="polite">This is a front-end form. No email service is configured yet.</p></form>
+    </section>
+  </main>
+
+  <footer class="footer"><div><a class="logo" href="#home">&lt;Tamseel/&gt;</a><p>Software Engineer passionate about coding, data-driven development, problem solving and building practical software solutions.</p></div><div class="footer-social"><a href="https://github.com/1ndonlytamseel" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/tamseel-ahmed-a42872281/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:tamseelwork@gmail.com">Email</a></div><div class="copyright">© 2026 Tamseel Ahmed. All Rights Reserved.</div></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
